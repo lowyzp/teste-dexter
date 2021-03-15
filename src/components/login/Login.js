@@ -49,7 +49,7 @@ function Login() {
                     <input id="password" className="login-input-text login-input-password" type='password' />
 
 
-                    <label for="showpass" className="login-checkbox">
+                    <label htmlFor="showpass" className="login-checkbox">
                         <input id="showpass" onClick={showPass} type="checkbox" />
                         Show password
                     </label>
