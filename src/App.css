@@ -1,0 +1,24 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 940px;
+  margin: auto;
+}
+
+.length {
+  min-height: 100%;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1004px) {
+  .container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    padding: 0 32px;
+  }
+}

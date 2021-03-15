@@ -1,0 +1,10 @@
+*, html, body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  background-color: #f9f9f9;
+}

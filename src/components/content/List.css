@@ -1,0 +1,48 @@
+.center{
+    text-align: center;
+}
+
+.block{
+    display: block;
+}
+.stripe{
+    height: 5px;
+    background: linear-gradient(90deg, rgba(174,35,169,1) 0%, rgba(220,78,27,1) 100%);
+}
+.topic{
+    margin-top: 142px;
+    margin-bottom: 42px;
+}
+
+.title{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 35px;
+    padding: 0;
+}
+@media only screen and (max-width: 1004px) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .title{
+        font-size: 15px;
+    }
+}
+
+
